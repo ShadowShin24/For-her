@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>For Nann Ohnmar Wai 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- Prettier Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+ <audio id="bg-music" src="music/background.mp3" loop></audio>
+
+
+<div id="tapOverlay">
+  <div id="tapMessage">🎵 Tap anywhere to start the music 🎵</div>
+</div>
+
+<!-- Secret Love Note -->
+<div id="secretNote" style="display: none;" class="secret-note">
+  💌 Dear Nann Ohnmar Wai,<br>
+  I may not always say it perfectly, but I care deeply for you and miss you more than words can say. This little space is just for you... 💖
+</div>
+<span id="secretHeart" style="position: fixed; bottom: 10px; right: 10px; cursor: pointer; font-size: 24px;">❤️</span>
+
+
+
+<div class="music-controls">
+  <button id="toggleMusicBtn">🔈 Play Music</button>
+
+  <input
+    id="volume-slider"
+    type="range"
+    min="0"
+    max="1"
+    step="0.01"
+    value="0.5"
+    aria-label="Volume"
+  />
+</div>
+
+  
+
+  <div class="hero">
+    <h1>Hi, Nann Ohnmar Wai 💖</h1>
+    <p class="message">
+      Even though we had a little fight yesterday, I want you to know you’re still very special to me.<br/>
+      I’m looking forward to hearing from you next month — I’ll be here, hoping, waiting, and always caring.<br/>
+      Until then, here’s a little place for us to share some fun moments. 💖
+    </p>
+
+    <div class="buttons">
+      <button onclick="window.location.href='games/memory.html'">Play a Game 🎮</button>
+      <button onclick="window.location.href='quiz.html'">Try a Fun Quiz 💘</button>
+    </div>
+
+    <p id="countdown">⏳ Waiting for your answer: ...</p>
+	
+	
+	
+  </div>
+</body>
+</html>
